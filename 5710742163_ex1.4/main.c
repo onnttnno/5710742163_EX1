@@ -16,7 +16,7 @@ int main()
     scanf("%f",&days);
     total=(days/365);
     interest=(principal*rate*total);
-    printf("Total is : %f\n",total);
+    //printf("Total is : %f\n",total);//
     printf("The interest charge is: %.2f ",interest);
     return 0;
 }
